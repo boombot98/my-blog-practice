@@ -8,8 +8,8 @@ body {
 
 .subscribe-button {
   background-color: #ff6600;
-  color: white;
-  padding: 10px 20px;
+  color: blue;
+  padding: 20px 20px;
   border: none;
   cursor: pointer;
 }
