@@ -3,3 +3,16 @@ body {
   color: #f0f0f0;
 }
 
+.subscribe-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #e65c00;
+}
+
+
