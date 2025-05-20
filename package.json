@@ -1,6 +1,6 @@
 {
   "name": "building so that actions can take place",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
 
 "dependencies": {
-  "lodash": "4.17.11"  
+  "express": "3.21.2"  
 }
 }
 
