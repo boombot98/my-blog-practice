@@ -7,7 +7,7 @@
     "test": "echo \"Running dummy test...\" && exit 0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
 
 "dependencies": {
   "lodash": "4.17.11"  
