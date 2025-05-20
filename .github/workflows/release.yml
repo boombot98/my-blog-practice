@@ -1,0 +1,17 @@
+name: Auto-Tag Release
+
+on:
+  push:
+    branches: [ main ]  # Only trigger this workflow on push to main
+permissions:
+  contents: write
+jobs:
+  tag:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
+    steps:
+    - uses: actions/checkout@v4  # Step 1: Checkout the repo
+
+    - uses: Klemensas/action-autotag@stable  # Step 2: Use the autotag action
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token to push tags
