@@ -1,3 +1,11 @@
-"scripts": {
-  "test": "echo \"Running tests...\" && exit 0"
+{
+  "name": "building so that actions can take place",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running dummy test...\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC"
 }
